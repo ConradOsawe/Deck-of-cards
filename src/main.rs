@@ -45,7 +45,7 @@ fn main () {
 let mut deck = Deck::new();
 
 deck.shuffle();
-let cards = deck.deal(300);
+let cards = deck.deal(3);
 //Error handling
 
    println!("Heres your hand: {:#?}", cards);
